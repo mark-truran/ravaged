@@ -1,16 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Alert } from 'flowbite-react'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        RAVAGED
-        </p>
-      </header>
+      <Alert
+        color="success"
+        onDismiss={function onDismiss() { return alert("Alert dismissed!") }}
+      >
+        <span>
+          <span className="font-medium">
+            Success!
+          </span>
+          {' '}React + Tailwind + Flowbite are working OK
+        </span>
+      </Alert>
     </div>
   );
 }
