@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ravaged/static/css/main.073c9b0a.css",
+    "main.js": "/ravaged/static/js/main.2fbb56f0.js",
+    "static/js/787.a686b4ef.chunk.js": "/ravaged/static/js/787.a686b4ef.chunk.js",
+    "static/media/logo.svg": "/ravaged/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ravaged/index.html",
+    "main.073c9b0a.css.map": "/ravaged/static/css/main.073c9b0a.css.map",
+    "main.2fbb56f0.js.map": "/ravaged/static/js/main.2fbb56f0.js.map",
+    "787.a686b4ef.chunk.js.map": "/ravaged/static/js/787.a686b4ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2fbb56f0.js"
+  ]
+}
