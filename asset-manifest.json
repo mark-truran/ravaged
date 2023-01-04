@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/ravaged/static/css/main.0c4ee4f7.css",
-    "main.js": "/ravaged/static/js/main.f3eb6d43.js",
-    "static/js/787.a686b4ef.chunk.js": "/ravaged/static/js/787.a686b4ef.chunk.js",
+    "main.css": "/ravaged/static/css/main.da9de17e.css",
+    "main.js": "/ravaged/static/js/main.2ce81095.js",
     "index.html": "/ravaged/index.html",
-    "main.0c4ee4f7.css.map": "/ravaged/static/css/main.0c4ee4f7.css.map",
-    "main.f3eb6d43.js.map": "/ravaged/static/js/main.f3eb6d43.js.map",
-    "787.a686b4ef.chunk.js.map": "/ravaged/static/js/787.a686b4ef.chunk.js.map"
+    "main.da9de17e.css.map": "/ravaged/static/css/main.da9de17e.css.map",
+    "main.2ce81095.js.map": "/ravaged/static/js/main.2ce81095.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4ee4f7.css",
-    "static/js/main.f3eb6d43.js"
+    "static/css/main.da9de17e.css",
+    "static/js/main.2ce81095.js"
   ]
 }
