@@ -33,14 +33,12 @@ function Layout() {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button color="light" href="/create" >
-            Create a crew
-          </Button>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
           <Link to="/home">Home</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/create">Create</Link>
         </Navbar.Collapse>
       </Navbar>
       <hr />
