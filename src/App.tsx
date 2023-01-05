@@ -1,5 +1,7 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import { Navbar, Button, Card } from 'flowbite-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRocket } from '@fortawesome/free-solid-svg-icons'
 
 export default function App() {
   return (
@@ -63,7 +65,7 @@ function Home() {
           Home Page
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          Splash screen with 'create crew' and 'load crew' options
+        <FontAwesomeIcon icon={faRocket} className="text-green-600"/> Splash screen with 'create crew' and 'load crew' options 
         </p>
       </Card>
     </div>
@@ -78,7 +80,8 @@ function Contact() {
           Contact details
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          Email details and github link
+
+          <FontAwesomeIcon icon={faRocket} className="text-green-600"/> Email details and github link
         </p>
       </Card>
     </div>
@@ -92,7 +95,7 @@ function Create() {
           Create a crew
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400">
-          The start of the crew creation wizard
+        <FontAwesomeIcon icon={faRocket} className="text-green-600"/> The start of the crew creation wizard
         </p>
       </Card>
   );
