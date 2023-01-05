@@ -1,5 +1,5 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import { Navbar, Button, Card } from 'flowbite-react';
+import { Navbar, Button } from 'flowbite-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket } from '@fortawesome/free-solid-svg-icons'
 
@@ -24,15 +24,12 @@ function Layout() {
       <Navbar
         fluid={true}
         rounded={true}
+        className="container mx-auto"
       >
         <Navbar.Brand href="https://flowbite.com/">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="mr-3 h-6 sm:h-9"
-            alt="Flowbite Logo"
-          />
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Flowbite
+          <FontAwesomeIcon icon={faRocket} size="xl"/>
+          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white ml-2 font-mono">
+            ravaged
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
@@ -49,7 +46,7 @@ function Layout() {
       </Navbar>
       <hr />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto pt-4">
         <Outlet />
       </div>
 
@@ -60,14 +57,13 @@ function Layout() {
 function Home() {
   return (
     <div>
-      <Card href="#">
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Home Page
+       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          home page
         </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-        <FontAwesomeIcon icon={faRocket} className="text-green-600"/> Splash screen with 'create crew' and 'load crew' options 
+        <p className="font-normal text-gray-700 dark:text-gray-400 pt-2">
+          <FontAwesomeIcon icon={faRocket}/> 
+          <span className="ml-2">splash screen with 'create crew' and 'load crew' options </span> 
         </p>
-      </Card>
     </div>
   );
 }
@@ -75,28 +71,27 @@ function Home() {
 function Contact() {
   return (
     <div>
-      <Card href="#">
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Contact details
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          contact details
         </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-
-          <FontAwesomeIcon icon={faRocket} className="text-green-600"/> Email details and github link
+        <p className="font-normal text-gray-700 dark:text-gray-400 pt-2">
+          <FontAwesomeIcon icon={faRocket}/> 
+          <span className="ml-2">Email details and github link </span> 
         </p>
-      </Card>
     </div>
   );
 }
 
 function Create() {
   return (
-    <Card href="#">
-        <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Create a crew
-        </h5>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
-        <FontAwesomeIcon icon={faRocket} className="text-green-600"/> The start of the crew creation wizard
-        </p>
-      </Card>
+    <div>
+      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        create a crew
+      </h5>
+      <p className="font-normal text-gray-700 dark:text-gray-400 pt-2">
+        <FontAwesomeIcon icon={faRocket}/> 
+        <span className="ml-2">The start of the crew creation wizard </span> 
+      </p>
+    </div>
   );
 }
