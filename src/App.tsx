@@ -26,14 +26,14 @@ function Layout() {
         rounded={true}
         className="container mx-auto"
       >
-        <Navbar.Brand href="https://flowbite.com/">
+        <Navbar.Brand href="/home">
           <FontAwesomeIcon icon={faRocket} size="xl"/>
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white ml-2 font-mono">
             ravaged
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button color="light">
+          <Button color="light" href="/create" >
             Create a crew
           </Button>
           <Navbar.Toggle />
@@ -41,7 +41,6 @@ function Layout() {
         <Navbar.Collapse>
           <Link to="/home">Home</Link>
           <Link to="/contact">Contact</Link>
-          <Link to="/create">Create</Link>
         </Navbar.Collapse>
       </Navbar>
       <hr />
@@ -62,7 +61,7 @@ function Home() {
         </h5>
         <p className="font-normal text-gray-700 dark:text-gray-400 pt-2">
           <FontAwesomeIcon icon={faRocket}/> 
-          <span className="ml-2">splash screen with 'create crew' and 'load crew' options </span> 
+          <span className="ml-2">Description of the app and the game</span> 
         </p>
     </div>
   );
