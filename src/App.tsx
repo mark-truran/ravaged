@@ -5,6 +5,7 @@ import { faRocket } from '@fortawesome/free-solid-svg-icons'
 import Contact from './Contact';
 import Home from './Home';
 import Crew from './Crew';
+import {Background} from './Background';
 import Load from './Load';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="crew" element={<Crew />} />
+          <Route path="background" element={<Background />} />
           <Route path="load" element={<Load />} />
           <Route path="*" element={<Home />} />
         </Route>

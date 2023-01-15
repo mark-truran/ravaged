@@ -1,0 +1,202 @@
+{
+    "backgrounds": [
+        {
+            "name": "Biomorph",
+            "statModifications": {
+                "mandatory": {
+                    "Health": 1
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1
+                },
+                "chooseOptionals": 2
+            },
+            "corePowers": [
+                "Adrenaline Surge",
+                "Armour Plates",
+                "Camouflage",
+                "Fling",
+                "Regenerate",
+                "Restructure Body",
+                "Toxic Claws",
+                "Toxic Secretion"
+            ]
+        },
+        {
+            "name": "Cyborg",
+            "statModifications": {
+                "mandatory": {
+                    "Health": 1
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1
+                },
+                "chooseOptionals": 2
+            },
+            "corePowers": [
+                "Camouflage",
+                "Control Robot",
+                "Data Knock",
+                "Energy Shield",
+                "Power Spike",
+                "Quick Step",
+                "Target Lock",
+                "Temporary Upgrade"
+            ]
+        },
+        {
+            "name": "Mystic",
+            "statModifications": {
+                "mandatory": {
+                    "Health": 1,
+                    "Will": 2
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1
+                },
+                "chooseOptionals": 1
+            },
+            "corePowers": [
+                "Control Animal",
+                "Dark Energy",
+                "Heal",
+                "Life Leach",
+                "Mystic Trance",
+                "Puppet Master",
+                "Suggestion",
+                "Void Blade"
+            ]
+        },
+        {
+            "name": "RoboticsExpert",
+            "statModifications": {
+                "mandatory": {
+                    "Will": 1
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1,
+                    "Health": 1
+                },
+                "chooseOptionals": 2
+            },
+            "corePowers": [
+                "Control Robot",
+                "Create Robot",
+                "Drone",
+                "Electromagnetic Pulse",
+                "Remote Firing",
+                "Remote Guidance",
+                "Repair Robot",
+                "Re-wire Robot"
+            ]
+        },
+        {
+            "name": "Rogue",
+            "statModifications": {
+                "mandatory": {
+                    "Health": 1,
+                    "Will": 1
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1
+                },
+                "chooseOptionals": 2
+            },
+            "corePowers": [
+                "Bait and Switch",
+                "Bribe",
+                "Cancel Power",
+                "Concealed Firearm",
+                "Data Jump",
+                "Fortune",
+                "Haggle",
+                "Quick Step"
+            ]
+        },
+        {
+            "name": "Psionicist",
+            "statModifications": {
+                "mandatory": {
+                    "Health": 1,
+                    "Will": 2
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1
+                },
+                "chooseOptionals": 1
+            },
+            "corePowers": [
+                "Break Lock",
+                "Destroy Weapon",
+                "Lift",
+                "Psionic Fire",
+                "Psychic Shield",
+                "Pull",
+                "Suggestion",
+                "Wall of Force"
+            ]
+        },
+        {
+            "name": "Tekker",
+            "statModifications": {
+                "mandatory": {
+                    "Will": 2
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1,
+                    "Health": 1
+                },
+                "chooseOptionals": 2
+            },
+            "corePowers": [
+                "Anti-gravity Projection",
+                "Data Jump",
+                "Data Knock",
+                "Data Skip",
+                "Drone",
+                "Electromagnetic Pulse",
+                "Holographic Wall",
+                "Transport"
+            ]
+        },
+        {
+            "name": "Veteran",
+            "statModifications": {
+                "mandatory": {
+                    "Fight": 1,
+                    "Health": 1
+                },
+                "optional": {
+                    "Move": 1,
+                    "Fight": 1,
+                    "Shoot": 1
+                },
+                "chooseOptionals": 1
+            },
+            "corePowers": [
+                "Armoury",
+                "Command",
+                "Coordinated Fire",
+                "Energy Shield",
+                "Fortune",
+                "Power Spike",
+                "Remote Firing",
+                "Target Designation"
+            ]
+        }
+    ]
+}
